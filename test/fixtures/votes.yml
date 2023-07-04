@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  campaign: one
+  candidate: one
+  validity: MyString
+  created_at: 2023-07-04 20:16:18
+
+two:
+  campaign: two
+  candidate: two
+  validity: MyString
+  created_at: 2023-07-04 20:16:18
