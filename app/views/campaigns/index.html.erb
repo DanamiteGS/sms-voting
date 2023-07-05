@@ -1,0 +1,5 @@
+<h1>TV SMS Campaigns</h1>
+
+<% @campaigns.each do |campaign| %>
+  <h2><%= link_to campaign, show_campaign_results_path(campaign) %></h2>
+<% end %>

@@ -1,0 +1,7 @@
+<h1>SHOW</h1>
+
+<% @results.each do |result| %>
+  <h2>CANDIDATE NAME: <%= result.name %></h2>
+  <h2>VALID VOTES: <%= result.valid_votes %></h2>
+  <h2>INVALID VOTES: <%= result.valid_votes %></h2>
+<% end %>
