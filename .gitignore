@@ -32,3 +32,6 @@
 
 # Ignore database configuration. Refer to /config/database.yml.sample instead.
 /config/database.yml
+
+# Sample data for testing
+lib/assets/data.txt
