@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #3ac5f4;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #88cd66;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.campaign-link {
+  display: block;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  color: #88cd66;
+  font-size: 18px;
+}
+
+.campaign-link:hover {
+  background-color: #444;
+}
+
+.results-section {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.candidate-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vote-label {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.votes-count {
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.valid-votes {
+  color: #45dba9;
+}
+
+.invalid-votes {
+  color: #e77d40;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #666;
+  margin: 20px 0;
+}

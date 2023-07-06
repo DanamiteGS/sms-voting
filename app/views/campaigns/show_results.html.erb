@@ -1,7 +1,28 @@
-<h1>SHOW</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= @campaign.name %> leaderboard</title>
+  <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+</head>
+<body>
+  <h1><%= @campaign.name %> leaderboard</h1>
 
-<% @results.each do |result| %>
-  <h2>CANDIDATE NAME: <%= result.name %></h2>
-  <h2>VALID VOTES: <%= result.valid_votes %></h2>
-  <h2>INVALID VOTES: <%= result.valid_votes %></h2>
-<% end %>
+  <% @results.each do |result| %>
+    <div class="results-section">
+      <h2 class="candidate-name"><%= result.name %></h2>
+      <div class="votes-count">
+        <div class="vote-label">
+          <span>Valid Votes:</span>
+          <span class="valid-votes"><%= result.valid_votes %></span>
+        </div>
+        <div class="vote-label">
+          <span>Invalid Votes:</span>
+          <span class="invalid-votes"><%= result.invalid_votes %></span>
+        </div>
+      </div>
+    </div>
+    <hr>
+  <% end %>
+</body>
+</html>
+

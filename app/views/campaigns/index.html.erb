@@ -1,5 +1,14 @@
-<h1>TV SMS Campaigns</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TV SMS Campaigns</title>
+  <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+</head>
+<body>
+  <h1>TV SMS Campaigns</h1>
 
-<% @campaigns.each do |campaign| %>
-  <h2><%= link_to campaign, show_campaign_results_path(campaign) %></h2>
-<% end %>
+  <% @campaigns.each do |campaign| %>
+    <p><%= link_to campaign,show_campaign_results_path(campaign), :class => 'campaign-link' %></p>
+  <% end %>
+</body>
+</html>
